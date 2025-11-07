@@ -1,0 +1,18 @@
+# Core numerical and data processing libraries
+numpy>=1.20.0
+pandas>=1.3.0  # Useful for CSV output and data handling
+scipy>=1.7.0   # Often included with numpy in scientific environments, good practice
+
+# Visualization
+matplotlib>=3.4.0
+
+# Parallelization (Crucial for the ES benchmarking framework)
+joblib>=1.0.1
+
+# Standard Python utilities used in the structure
+dataclasses      # For Solution and SolutionResults (if using Python < 3.7)
+typing           # For type hints (List, Dict, Union)
+
+# Recommended for running the notebooks (optional if only running Python scripts)
+jupyterlab>=3.0
+notebook>=6.4
