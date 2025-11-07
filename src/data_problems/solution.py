@@ -44,4 +44,5 @@ class SolutionResults:
     best_sequence: List[int]
     history: dict  # Fitness evolution stored with RLE (e.g., {'values': [...], 'counts': [...]})
     params: dict   # Solver parameters used for this run
+    execution_time: float = 0.0  # Time in seconds to complete the run
     # ... potentially other fields like best_history
