@@ -10,7 +10,7 @@ if __name__ == "__main__":
     
     # Execute the testing framework
     try:
-        run_benchmarks(es_config='default')
+        run_benchmarks(ec_config='default')
     except Exception as e:
         print(f"[ERR] An error occurred during benchmarking: {e}")
     
