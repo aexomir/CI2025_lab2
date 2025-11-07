@@ -1,0 +1,3 @@
+problem,solver,best_fitness,execution_time,max_iterations,population_size,offspring_size,generations,strategy
+problem_r1_10,HC (Simulated Annealing),214.38444767176304,0.060961008071899414,10000.0,,,,
+problem_r1_10,EC (Best),184.27344079993895,0.36403822898864746,,50.0,100.0,100.0,"mu,lambda"
